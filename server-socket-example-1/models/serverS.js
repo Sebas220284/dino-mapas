@@ -7,7 +7,7 @@ const Sockets=require('./sokets')
 class Server{
     constructor(){
         this.app=express();
-        this.port=process.env.PORT || 8080
+        this.port= 8080
         
 
 
