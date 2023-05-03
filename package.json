@@ -4,11 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  
     "dev": "nodemon server.js",
     "start":"node server.js",
     "build":"npm --prefix client-fron install && npm run  --prefix client-fron build"
-
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +14,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "socket.io": "^4.6.1"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }
