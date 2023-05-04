@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "build":  "cd client-fron && npm install && npm run build"
-    
+    "build": "cd client-fron && npm install && npm run build"
+
   },
   "author": "",
   "license": "ISC",
