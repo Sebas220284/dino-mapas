@@ -6,28 +6,16 @@
   "scripts": {
     "dev": "nodemon server.js",
     "start": "node server.js",
-    "client-install": "npm --prefix client install",
-    "client-build": "npm run build --prefix client",
-    "build": "cd client-fron && npm install && npm run build"
-
+    "build": "npm --prefix client-fron  install && npm run  --prefix client-fron build" 
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@emotion/react": "^11.10.8",
-    "@emotion/styled": "^11.10.8",
-    "@mui/material": "^5.12.3",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mapbox-gl": "^2.14.1",
     "socket.io": "^4.6.1"
   },
   "engines": {
     "node": "19.8.x"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.21.8",
-    "@babel/preset-env": "^7.21.5",
-    "babel-loader": "^9.1.2"
   }
 }
