@@ -9,6 +9,7 @@
     "client-install": "npm --prefix client install",
     "client-build": "npm run build --prefix client",
     "build": "cd client-fron && npm install && npm run build"
+
   },
   "author": "",
   "license": "ISC",
